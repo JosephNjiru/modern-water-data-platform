@@ -100,6 +100,7 @@ Additional service endpoints:
 ## Project showcase
 
 ### Data lineage and architecture
+<img width="1415" height="247" alt="data-lineage-flow" src="https://github.com/user-attachments/assets/7e092a41-6762-4d20-8d9a-9558dc383625" />
 
 The platform implements a complete medallion architecture with clear data lineage tracking from raw ingestion through to business analytics.
 
@@ -134,7 +135,7 @@ These data products provide the foundation for advanced analytics, reporting, an
 
 ## Contributing
 
-This project follows Australian English conventions and professional documentation standards. When contributing, please ensure all documentation uses proper Australian spelling and sentence case formatting.
+Please to do not alter this original project. You may download a copy and with a copy.
 
 ## Licence
 
