@@ -1,0 +1,46 @@
+# Core Compute & Storage
+# Provides PySpark for data transformation
+pyspark==3.4.1
+# Enables Spark to read/write the Delta Lake format
+delta-spark==2.4.0
+
+# Data Quality & Governance
+# The core library for data quality contracts
+great-expectations
+# DataHub client to push metadata & lineage from PySpark
+acryl-datahub[datahub-rest]
+acryl-datahub[pyspark]
+
+# Visualisation
+plotly==5.22.0
+kaleido==0.2.1
+
+# Data Source & Sink
+# Python client for MinIO (S3)
+minio
+
+# Synthetic Data Generation
+# For generating realistic tabular data (customers, assets)
+Faker
+# For generating realistic time-series data (smart meter, scada)
+prophet
+# Required by Prophet and for data generation scripting
+pandas
+
+# Testing Framework
+# Core testing framework
+pytest
+# Provides fixtures for PySpark unit testing (e.g., a SparkSession)
+pytest-spark
+
+# Linting & Formatting (DataOps Best Practice)
+# Uncompromising code formatter
+black
+# Linter for style and errors
+flake8
+# Sorts imports automatically
+isort
+
+# Git Hooks
+# Manages pre-commit hooks to run checks automatically
+pre-commit
