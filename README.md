@@ -1,10 +1,10 @@
 # Enterprise Water Systems Lakehouse
 
-Joseph. N. Njiru
+By Joseph. N. Njiru, PhD, MC-PREDAN (Data Sci), MEd (Ed. Psych), GD-Stats.
 
 Complete Data Pipeline and Data Governance
 
-A comprehensive, enterprise grade data lakehouse implementation designed for modern water utility operations. This project demonstrates end to end data engineering workflows using the medallion architecture pattern with Delta Lake and Apache Spark.
+This platform provdes a comprehensive, enterprise grade data lakehouse implementation designed for modern water utility operations. This project demonstrates end to end data engineering workflows using the medallion architecture pattern with Delta Lake and Apache Spark.
 
 ## Modern water data platform
 
