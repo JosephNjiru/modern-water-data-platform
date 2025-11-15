@@ -1,0 +1,22 @@
+# GitAttributes file to ensure correct language detection
+# This tells GitHub that HTML files in visualisations/ are generated output, not source code
+
+# Mark visualization files as generated content (not counted in language stats)
+visualisations/*.html linguist-generated=true
+visualisations/*.png binary
+visualisations/*.pdf binary
+
+# Ensure Python files are properly detected as source code
+*.py linguist-language=Python
+app/*.py linguist-language=Python
+
+# Docker files
+Dockerfile linguist-language=Dockerfile
+docker-compose.yml linguist-language=YAML
+
+# Documentation
+*.md linguist-documentation=true
+
+# Configuration files
+requirements.txt linguist-language=Text
+.pre-commit-config.yaml linguist-language=YAML
